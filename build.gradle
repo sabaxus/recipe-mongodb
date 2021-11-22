@@ -47,6 +47,7 @@ dependencies {
 //    testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
+//export test coverage
 jacocoTestReport {
     reports {
         xml.enabled true
