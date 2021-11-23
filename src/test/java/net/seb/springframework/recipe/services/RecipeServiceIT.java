@@ -15,7 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import static org.junit.Assert.assertEquals;
 
-@Ignore
+//@Ignore
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class RecipeServiceIT {
@@ -33,7 +33,7 @@ public class RecipeServiceIT {
     @Autowired
     RecipeToRecipeCommand recipeToRecipeCommand;
 
-    @Transactional
+    //@Transactional
     @Test
     public void testSaveOfDescription() throws Exception {
         //given
